@@ -10,3 +10,5 @@ Create Table employee_payroll
 	salary money not null,
 	start date not null
 	)
+--UC3:
+insert into employee_payroll values('aaa',45000,'2021-01-03')
