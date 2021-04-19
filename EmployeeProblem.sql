@@ -28,3 +28,5 @@ select gender ,avg(salary) as maleOrFemale from employee_payroll group by gender
 select gender ,min(salary) as maleOrFemale from employee_payroll group by gender
 select gender ,max(salary) as maleOrFemale from employee_payroll group by gender
  select gender ,count(salary) as maleOrFemale from employee_payroll group by gender
+--UC8:
+alter table employee_payroll add phone_number varchar(12),address varchar(40),department varchar(40 )not null
