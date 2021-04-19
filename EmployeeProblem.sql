@@ -17,3 +17,6 @@ Select * from employee_payroll
 --UC5:
 select * from employee_payroll where name ='bill'
 select * from employee_payroll where start between '2021-01-01' and GETDATE() 
+--UC6
+alter table employee_payroll add  gender varchar(6)
+update employee_payroll set gender = 'M' where name = 'bill' or name = 'charlie'
